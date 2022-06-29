@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col">
         <h3 class="ekipi-trustednews">Ekipi i Trusted News</h3>
-        <p class="about-us-text about-team">Puna e shkëlqyer dhe korrekte e ekipit tonë e ka renditur Telegrafin si burimin kryesor të informimit në vend dhe rajon. Falë përkushtimit dhe bashkëpunimit të ngushtë në mes të punonjësve në departamente të ndryshme, në Trusted News numërohen miliona shfletime të lajmeve të lexuara çdo muaj.</p>
+        <p class="about-us-text about-team">Puna e shkëlqyer dhe korrekte e ekipit tonë e ka renditur Trusted News si burimin kryesor të informimit në vend dhe rajon. Falë përkushtimit dhe bashkëpunimit të ngushtë në mes të punonjësve në departamente të ndryshme, në Trusted News numërohen miliona shfletime të lajmeve të lexuara çdo muaj.</p>
       </div>
       <h4 class="desku-informativ">Desku informativ</h4>
         <div class="row row-cols-4 row-gap">
