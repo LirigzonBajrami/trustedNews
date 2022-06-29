@@ -11,8 +11,8 @@
     <div class="row">
 
       <div class="col">
-          <h3  class="info-title">Për më shumë se një dekadë me ju.</h3>
-          <p class="about-us-text">Trusted News është portal i pavarur i lajmeve në gjuhën shqipe i themeluar në vitin 2009, me bazë kryesore në Prishtinë dhe seli të dytë në Maqedoni. Trusted News për më shumë se një dekadë ka arritur të ruajë paanshmërinë dhe të jetë burim i lajmeve me kredibilitetin më të lartë në të gjithë trevat shqipfolëse.</p>
+          <h3  class="info-title">Portali më i ri dhe më serioz ne Kosovë</h3>
+          <p class="about-us-text">Trusted News është portal i pavarur i lajmeve në gjuhën shqipe i themeluar në vitin 2022, me bazë kryesore në Prishtinë dhe seli të dytë në Maqedoni. Trusted News ka arritur të ruajë paanshmërinë dhe të jetë burim i lajmeve me kredibilitetin më të lartë në të gjithë trevat shqipfolëse.</p>
           <p class="about-us-text">Misioni kryesor i Trusted News është informimi i saktë i qytetarëve në kohë reale, duke ruajtur fuqishëm epitetin e medias së pavarur dhe pozicionin si lider në fushën e medias online</p>
         </div>
         <div class="col">
