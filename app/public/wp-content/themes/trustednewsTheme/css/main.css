@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* Header Style */
+header {
+  background-color: #2f476d;
+  width: 100%;
+  height: 80px;
+}
+
+/* Every page */
+.page-wrap {
+  padding: 2rem 0;
+}
+
+header .container {
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .top-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+header .top-bar li a {
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+header .top-bar li a {
+  text-decoration: none;
+  color: #dee2e6;
+  font-weight: 500;
+}
+
+header .top-bar li a:hover {
+  color: #fff;
+}
+
+header .main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-top-bar-container {
+  display: flex;
+}
+
+.menu-item-24 {
+  margin-right: 10px;
+}
+
+/* POSTS CONTENT */
+
+.custom-img {
+  width: 800px;
+  height: 450px;
+}
+
+.post-content {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 4rem;
+}
+
+.single-post-category {
+  background-color: #2f476d;
+  color: #fff;
+  padding: 3px 6px;
+  font-weight: 600;
+}
+
+.category-link:hover {
+  color: #fff;
+}
+
+/* COMMENTS */
+
+.post-comments {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.post-comments .logged-in-as {
+  display: none;
+}
+.comment-form-comment label {
+  display: none;
+}
+
+.comment-form-comment #comment {
+  width: 700px;
+  height: 80px;
+}
+
+.post-comments #submit {
+  background-color: #2f476d;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-weight: 480;
+}
+
+.comment-reply-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* LATEST POSTS */
+
+.widget {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget-title {
+  margin-bottom: 1rem;
+  color: #2f476d;
+}
+
+.wp-block-latest-posts {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wp-block-latest-posts li {
+  display: flex;
+  gap: 2rem;
+  background-color: #f8f9fa;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  padding: 8px;
+}
+
+.wp-block-latest-posts__post-title {
+  text-decoration: none;
+  color: #2f476d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.wp-block-latest-posts__post-title:hover {
+  color: #ea008a;
+}
+
+.wp-block-latest-posts__featured-image a img {
+  border-radius: 3px;
+}
+
+.custom-style {
+  color: #2f476d;
+}
+
+/* SEARCH BAR */
+.input-search {
+  border: none;
+  border-radius: 3px;
+  padding: 2px;
+  max-width: 170px;
+  margin-left: 3.2rem;
+}
+
+.input-search {
+  outline: none;
+  padding-left: 5px;
+}
+
+.search-button {
+  border: none;
+  border-radius: 3px;
+  color: #2f476d;
+  font-weight: 500;
+  transition: all 0.4s;
+  margin-right: 20px;
+}
+
+.search-button:hover {
+  background-color: #e9ecef;
+}
+
+/* FOOTER */
+.footer-nav {
+  background-color: #2f476d;
+  height: 400px;
+  margin-top: 50px;
+  padding-bottom: 0 !important;
+}
+
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.footer-nav .center {
+  padding: 100px 0;
+}
+
+.footer-bar {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+}
+
+.footer-bar li {
+  line-height: 2.6;
+}
+
+.footer-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TAGS STYLE */
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tag-style {
+  text-decoration: none;
+  color: #fff;
+  background-color: #2f476d;
+  padding: 2px 6px;
+  transition: all 0.3s;
+}
+
+.tag-style:hover {
+  background-color: #ea008a;
+  color: #fff;
+}
+
+/* Contact us */
+
+#wpforms-56-field_3 {
+  width: 60%;
+}
+
+#wpforms-submit-56 {
+  background-color: #2f476d;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 200px;
+  padding: 0.2rem 2rem;
+}
+
+.contact-title {
+  font-size: 2.4rem;
+  color: #2f476d;
+}
+
+.wpforms-field-label {
+  color: #2f476d;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+
+/* TRANSLATE */
+.notranslate {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-weight: normal;
+  font-size: 12px;
+  border: none;
+}
+
+#gtranslate_selector {
+  background-color: #2f476d;
+  color: #fff;
+  border: 1px solid #fff;
+  position: fixed;
+}
+
+/* About us */
+
+.info-title {
+  margin-bottom: 1.8rem;
+  color: #2f476d;
+}
+
+.ekipi-trustednews {
+  border-top: 1px solid #ddd;
+  padding-top: 2rem;
+}
+
+.ekipi-trustednews,
+.desku-informativ {
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8rem;
+  color: #2f476d;
+}
+
+.about-us-text {
+  color: #2f476d;
+}
+
+.about-team {
+  margin: 0 170px;
+  text-align: center;
+}
+
+.employee-position,
+.employee-name {
+  color: #2f476d;
+  margin-left: 3.2rem;
+  margin-top: 10px;
+}
+
+.employee-name {
+  margin-bottom: -5px;
+  font-weight: 600;
+}
+
+.employee-position {
+  font-weight: 400;
+  display: block;
+}
+
+.row-gap {
+  row-gap: 3.2rem;
+  margin: 0 3.2rem;
+}
+
+/* LAST POST */
+.last-post .widget_recent_entries li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.last-post .widget_recent_entries li a {
+  font-size: 1.8rem;
+}
+
+.category-lajme {
+  color: #2f476d;
+}
+
+.aside-lajme {
+  width: 75%;
+}
+
+.fokus-lajme {
+  margin-top: 4.8rem;
+  color: #2f476d;
+}
+
+.fokus-link {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #2f476d;
+}
+
+.fokus-link:hover,
+.fokus-cat:hover {
+  color: #ea008a;
+}
+
+.fokus-cat {
+  text-decoration: none;
+  color: #2f476d;
+}
+
+.home-page-latest {
+  width: 70%;
+}

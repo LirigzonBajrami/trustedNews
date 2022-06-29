@@ -1,0 +1,259 @@
+[26-May-2022 14:34:02 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 5
+[26-May-2022 14:36:03 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 5
+[26-May-2022 14:38:04 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 5
+[26-May-2022 14:49:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'bootstrap' not found or invalid function name in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php on line 307
+[26-May-2022 14:49:15 UTC] PHP Stack trace:
+[26-May-2022 14:49:15 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[26-May-2022 14:49:15 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[26-May-2022 14:49:15 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[26-May-2022 14:49:15 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[26-May-2022 14:49:15 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php:1
+[26-May-2022 14:49:15 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:48
+[26-May-2022 14:49:15 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[26-May-2022 14:49:15 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:770
+[26-May-2022 14:49:15 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\header.php:10
+[26-May-2022 14:49:15 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:3042
+[26-May-2022 14:49:15 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\plugin.php:476
+[26-May-2022 14:49:15 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php:331
+[26-May-2022 14:49:15 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php:307
+[26-May-2022 14:49:15 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\script-loader.php:2156
+[26-May-2022 14:49:15 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\plugin.php:476
+[26-May-2022 14:49:15 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php:331
+[26-May-2022 15:17:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function th_title() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php:5
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#3 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php on line 5
+[26-May-2022 15:18:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function th_title() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php:5
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#3 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php on line 5
+[29-May-2022 07:38:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 52 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(52): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Admin\\...')
+#5 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:39:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 52 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(52): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Admin\\...')
+#5 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:41:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Admin\\...')
+#5 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:42:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Admin\\...')
+#5 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:43:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#6 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:43:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#6 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:44:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Admin\\...')
+#5 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:44:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#6 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[29-May-2022 07:44:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53 and exactly 2 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php(53): register_nav_menu(Array)
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-settings.php(566): include('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-config.php(91): require_once('C:\\Users\\Admin\\...')
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-load.php(50): require_once('C:\\Users\\Admin\\...')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#6 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\nav-menu.php on line 136
+[30-May-2022 07:49:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'_edit_last\', \'1\' UNION ALL SELECT 31, \'_edit_lock\', \'1653896403:1\'' at line 1 for query INSERT INTO wp_postmeta (post_id, meta_key, meta_value) SELECT 31, \'_edit_last\', \'1\' UNION ALL SELECT 31, \'_edit_lock\', \'1653896403:1\' made by do_action('admin_action_dpp_duplicate_as_draft'), WP_Hook->do_action, WP_Hook->apply_filters, dpp_duplicate_as_draft
+[30-May-2022 07:49:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'_edit_last\', \'1\' UNION ALL SELECT 32, \'_edit_lock\', \'1653896403:1\'' at line 1 for query INSERT INTO wp_postmeta (post_id, meta_key, meta_value) SELECT 32, \'_edit_last\', \'1\' UNION ALL SELECT 32, \'_edit_lock\', \'1653896403:1\' made by do_action('admin_action_dpp_duplicate_as_draft'), WP_Hook->do_action, WP_Hook->apply_filters, dpp_duplicate_as_draft
+[30-May-2022 07:49:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'_edit_last\', \'1\' UNION ALL SELECT 33, \'_edit_lock\', \'1653896403:1\'' at line 1 for query INSERT INTO wp_postmeta (post_id, meta_key, meta_value) SELECT 33, \'_edit_last\', \'1\' UNION ALL SELECT 33, \'_edit_lock\', \'1653896403:1\' made by do_action('admin_action_dpp_duplicate_as_draft'), WP_Hook->do_action, WP_Hook->apply_filters, dpp_duplicate_as_draft
+[30-May-2022 07:49:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'_edit_last\', \'1\' UNION ALL SELECT 34, \'_edit_lock\', \'1653896403:1\'' at line 1 for query INSERT INTO wp_postmeta (post_id, meta_key, meta_value) SELECT 34, \'_edit_last\', \'1\' UNION ALL SELECT 34, \'_edit_lock\', \'1653896403:1\' made by do_action('admin_action_dpp_duplicate_as_draft'), WP_Hook->do_action, WP_Hook->apply_filters, dpp_duplicate_as_draft
+[30-May-2022 08:12:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function custom_excerpt_length(), 0 passed in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-archive.php on line 10 and exactly 1 expected in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php:64
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-archive.php(10): custom_excerpt_length()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(772): require('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Admin\\...', false, Array)
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\archive.php(10): get_template_part('inc in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 64
+[30-May-2022 08:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_previous_page() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\archive.php:13
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#3 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\archive.php on line 13
+[30-May-2022 08:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function th_previous_page() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\archive.php:13
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#3 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\archive.php on line 13
+[30-May-2022 09:54:50 UTC] PHP Parse error:  syntax error, unexpected 'register_nav_menus' (T_STRING) in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 53
+[30-May-2022 09:57:17 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:57:25 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:57:26 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:57:36 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:57:37 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:10 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:11 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:29 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:30 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:33 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 7
+[30-May-2022 09:58:52 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 09:58:53 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 09:59:11 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 09:59:34 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 09:59:46 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 09:59:47 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 10:00:23 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[30-May-2022 10:01:13 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php on line 10
+[02-Jun-2022 11:32:28 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 93
+[03-Jun-2022 09:37:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_search() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\header.php:34
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Admin\\...', true, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php(2): get_header()
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#6 C:\Users\Admin\Local Sites\trustednews\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#7 {main}
+  thrown in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\header.php on line 34
+[03-Jun-2022 09:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_search_query() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-searchresults.php:34
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(772): require()
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Admin\\...', false, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\search.php(15): get_template_part('includes/sectio...', 'searchresults')
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admin\\...')
+#5 C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#6 C:\Users\Admin\Local Sites\trustednews\app\public\ in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-searchresults.php on line 34
+[28-Jun-2022 09:54:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\script-loader.php on line 2781
+[28-Jun-2022 09:54:11 UTC] PHP Stack trace:
+[28-Jun-2022 09:54:11 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[28-Jun-2022 09:54:11 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[28-Jun-2022 09:54:11 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[28-Jun-2022 09:54:11 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[28-Jun-2022 09:54:11 UTC] PHP   5. get_footer() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\front-page.php:25
+[28-Jun-2022 09:54:11 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:92
+[28-Jun-2022 09:54:11 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[28-Jun-2022 09:54:11 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:770
+[28-Jun-2022 09:54:11 UTC] PHP   9. wp_footer() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\footer.php:4
+[28-Jun-2022 09:54:11 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:3058
+[28-Jun-2022 09:54:11 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\plugin.php:476
+[28-Jun-2022 09:54:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php:331
+[28-Jun-2022 09:54:11 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\class-wp-hook.php:307
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 09:42:27 UTC] PHP Parse error:  syntax error, unexpected 'register_sidebar' (T_STRING), expecting ')' in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\functions.php on line 110
+[29-Jun-2022 10:14:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-lajmecontent.php on line 33
+[29-Jun-2022 10:14:21 UTC] PHP Stack trace:
+[29-Jun-2022 10:14:21 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[29-Jun-2022 10:14:21 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[29-Jun-2022 10:14:21 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[29-Jun-2022 10:14:21 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[29-Jun-2022 10:14:21 UTC] PHP   5. get_template_part() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php:35
+[29-Jun-2022 10:14:21 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:204
+[29-Jun-2022 10:14:21 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[29-Jun-2022 10:14:21 UTC] PHP   8. require() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:772
+[29-Jun-2022 10:14:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-lajmecontent.php on line 33
+[29-Jun-2022 10:14:34 UTC] PHP Stack trace:
+[29-Jun-2022 10:14:34 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[29-Jun-2022 10:14:34 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[29-Jun-2022 10:14:34 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[29-Jun-2022 10:14:34 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[29-Jun-2022 10:14:34 UTC] PHP   5. get_template_part() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php:35
+[29-Jun-2022 10:14:34 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:204
+[29-Jun-2022 10:14:34 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[29-Jun-2022 10:14:34 UTC] PHP   8. require() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:772
+[29-Jun-2022 10:14:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-lajmecontent.php on line 33
+[29-Jun-2022 10:14:44 UTC] PHP Stack trace:
+[29-Jun-2022 10:14:44 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[29-Jun-2022 10:14:44 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[29-Jun-2022 10:14:44 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[29-Jun-2022 10:14:44 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[29-Jun-2022 10:14:44 UTC] PHP   5. get_template_part() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php:35
+[29-Jun-2022 10:14:44 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:204
+[29-Jun-2022 10:14:44 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[29-Jun-2022 10:14:44 UTC] PHP   8. require() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:772
+[29-Jun-2022 11:28:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-lajmecontent.php on line 33
+[29-Jun-2022 11:28:12 UTC] PHP Stack trace:
+[29-Jun-2022 11:28:12 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[29-Jun-2022 11:28:12 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[29-Jun-2022 11:28:12 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[29-Jun-2022 11:28:12 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[29-Jun-2022 11:28:12 UTC] PHP   5. get_template_part() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php:35
+[29-Jun-2022 11:28:12 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:204
+[29-Jun-2022 11:28:12 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[29-Jun-2022 11:28:12 UTC] PHP   8. require() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:772
+[29-Jun-2022 11:34:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\includes\section-lajmecontent.php on line 33
+[29-Jun-2022 11:34:02 UTC] PHP Stack trace:
+[29-Jun-2022 11:34:02 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:0
+[29-Jun-2022 11:34:02 UTC] PHP   2. require() C:\Users\Admin\Local Sites\trustednews\app\public\index.php:17
+[29-Jun-2022 11:34:02 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\trustednews\app\public\wp-blog-header.php:19
+[29-Jun-2022 11:34:02 UTC] PHP   4. include() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template-loader.php:106
+[29-Jun-2022 11:34:02 UTC] PHP   5. get_template_part() C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\themes\trustednewsTheme\single.php:35
+[29-Jun-2022 11:34:02 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\general-template.php:204
+[29-Jun-2022 11:34:02 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:716
+[29-Jun-2022 11:34:02 UTC] PHP   8. require() C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\template.php:772
