@@ -109,27 +109,100 @@ function my_sidebars(){
       
       );
 
+      // Last post lajme sidebar
       register_sidebar(
 
           array(
-            'name' => 'Last Post',
-            'id' => 'last-post',
+            'name' => 'Last Post Lajme',
+            'id' => 'last-post-lajme',
             'before_title' => '<h4 class="widget-title">',
             'after_title' => '</h4>'       
             
           )
       );
 
+            // Last post teknologji sidebar
+            register_sidebar(
+
+              array(
+                'name' => 'Last Post Teknologji',
+                'id' => 'last-post-teknologji',
+                'before_title' => '<h4 class="widget-title">',
+                'after_title' => '</h4>'       
+                
+              )
+          );
+
+               // Last post sport sidebar
+               register_sidebar(
+
+                array(
+                  'name' => 'Last Post Sport',
+                  'id' => 'last-post-sport',
+                  'before_title' => '<h4 class="widget-title">',
+                  'after_title' => '</h4>'       
+                  
+                )
+            );
+
+      // Lajme sidebar
+
       register_sidebar(
 
         array(
-          'name' => 'Last Post Sidebar',
-          'id' => 'last-post-sidebar',
+          'name' => 'Last Posts Lajme Sidebar',
+          'id' => 'last-posts-lajme-sidebar',
           'before_title' => '<h4 class="widget-title">',
           'after_title' => '</h4>'
           
         )
     );
+
+    // Teknologji sidebar
+    register_sidebar(
+
+      array(
+        'name' => 'Last Posts Teknologji Sidebar',
+        'id' => 'last-posts-teknologji-sidebar',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>'
+        
+      )
+  );
+
+      // Sport sidebar
+      register_sidebar(
+
+        array(
+          'name' => 'Last Posts Sport Sidebar',
+          'id' => 'last-posts-sport-sidebar',
+          'before_title' => '<h4 class="widget-title">',
+          'after_title' => '</h4>'
+          
+        )
+    );
+
+    register_sidebar(
+
+      array(
+        'name' => 'Archive Sidebar',
+        'id' => 'archive-sidebar',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>'
+        
+      )
+  );
+
+  register_sidebar(
+
+    array(
+      'name' => 'Categories Sidebar',
+      'id' => 'categories-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+      
+    )
+);
 
 }
 

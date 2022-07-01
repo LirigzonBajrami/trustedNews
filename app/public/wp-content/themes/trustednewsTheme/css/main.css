@@ -396,12 +396,16 @@ header .main-nav {
   font-size: 1.8rem;
 }
 
+.wp-block-latest-posts__featured-image .wp-post-image {
+  max-width: 840px !important;
+}
+
 .category-lajme {
   color: #2f476d;
 }
 
 .aside-lajme {
-  width: 75%;
+  width: 100%;
 }
 
 .fokus-lajme {
@@ -426,5 +430,36 @@ header .main-nav {
 }
 
 .home-page-latest {
-  width: 70%;
+  width: 68%;
+}
+
+/* ARCHIVE */
+.archive,
+.categories {
+  border: 1px solid #dee2e6;
+  padding: 1.6rem 2.4rem;
+  margin-top: 7rem;
+}
+.archive-title,
+.categories-title {
+  color: #2f476d;
+}
+
+.archive .wp-block-archives-list a {
+  text-decoration: none;
+  color: #2f476d;
+}
+
+.categories {
+  margin-top: 3.2rem;
+}
+
+.categories .wp-block-categories-list a {
+  text-decoration: none;
+  color: #2f476d;
+}
+
+.archive .wp-block-archives-list a:hover,
+.categories .wp-block-archives-list a {
+  color: #ea008a;
 }

@@ -15,18 +15,18 @@
       <div class="row ">
         <div class="col-8">
           <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
-          <?php if(is_active_sidebar('last-post')): ?>
+          <?php if(is_active_sidebar('last-post-lajme')): ?>
               <div class="last-post">
-                <?php dynamic_sidebar('last-post'); ?>
+                <?php dynamic_sidebar('last-post-lajme'); ?>
 
               </div>
           <?php endif; ?>
         </div>
 
         <div class="col-4">
-        <?php if(is_active_sidebar('last-post-sidebar')): ?>
+        <?php if(is_active_sidebar('last-posts-lajme-sidebar')): ?>
               <div>
-                <?php dynamic_sidebar('last-post-sidebar'); ?>
+                <?php dynamic_sidebar('last-posts-lajme-sidebar'); ?>
               </div>
           <?php endif; ?>
         </div>
