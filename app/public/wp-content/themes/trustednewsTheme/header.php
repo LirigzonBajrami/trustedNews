@@ -15,7 +15,7 @@
 
 <header>
   <div class="container main-nav">
-    <a href="#"><h2>Trusted News</h2></a>
+    <a href="#"><h2>TrustedNews</h2></a>
 
       <div class="d-flex">
         <?php

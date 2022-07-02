@@ -417,6 +417,7 @@ header .main-nav {
   font-size: 1.6rem;
   text-decoration: none;
   color: #2f476d;
+  font-weight: 500;
 }
 
 .fokus-link:hover,
@@ -430,7 +431,7 @@ header .main-nav {
 }
 
 .home-page-latest {
-  width: 68%;
+  width: 100%;
 }
 
 /* ARCHIVE */
@@ -462,4 +463,15 @@ header .main-nav {
 .archive .wp-block-archives-list a:hover,
 .categories .wp-block-archives-list a {
   color: #ea008a;
+}
+
+/* SLIDER */
+#metaslider_container_85 .slides li img {
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Weather */
+.splw-lite-wrapper {
+  width: 100%;
 }

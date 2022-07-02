@@ -182,6 +182,8 @@ function my_sidebars(){
         )
     );
 
+
+    // ARCHIVE Sidebar
     register_sidebar(
 
       array(
@@ -193,6 +195,8 @@ function my_sidebars(){
       )
   );
 
+
+  // Categories Sidebar
   register_sidebar(
 
     array(
@@ -204,6 +208,22 @@ function my_sidebars(){
     )
 );
 
+
+  // SLIDER Sidebar
+  register_sidebar(
+
+    array(
+      'name' => 'Slider Sidebar',
+      'id' => 'slider-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+      
+    )
+);
+
 }
 
 add_action('widgets_init', 'my_sidebars');
+
+
+

@@ -33,21 +33,50 @@
       </div>
   
   
-    <!-- Dmth qe kodin qe e kena shkru ne section-archive.php
+      <div class="row">
+        <div class="col-8">
+              <!-- Dmth qe kodin qe e kena shkru ne section-archive.php
          importo ketu me vetem nje rresht kod, pra mos me kompliku kodin -->
-      <div class="row home-page-latest">
-        <div class="col-12">
-            <div class="card p-2">
-              <div class="card-body d-flex justify-content-start">
-                <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
-                <?php if(is_active_sidebar('news-sidebar')): ?>
-          
-                  <?php dynamic_sidebar('news-sidebar'); ?>
-                <?php endif; ?>
+          <div class="row home-page-latest">
+            <div class="col-12">
+                <div class="card p-2">
+                  <div class="card-body d-flex justify-content-start">
+                    <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
+                    <?php if(is_active_sidebar('news-sidebar')): ?>
+              
+                      <?php dynamic_sidebar('news-sidebar'); ?>
+                    <?php endif; ?>
+                    </div>
                 </div>
             </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <?php if(is_active_sidebar('slider-sidebar')): ?>
+              <div class="slider-home-sidebar">
+                <?php dynamic_sidebar('slider-sidebar'); ?>
+              </div>
+          <?php endif; ?>
+          <div class="archive">
+            <h3 class="archive-title">Archive</h3>
+            <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
+            <?php if(is_active_sidebar('archive-sidebar')): ?>
+      
+              <?php dynamic_sidebar('archive-sidebar'); ?>
+            <?php endif; ?>
+          </div>
+          <div class="categories">
+            <h3 class="categories-title">Categories</h3>
+            <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
+            <?php if(is_active_sidebar('categories-sidebar')): ?>
+      
+              <?php dynamic_sidebar('categories-sidebar'); ?>
+            <?php endif; ?>
+          </div>
+
         </div>
       </div>
+  
     
 
   </div>
