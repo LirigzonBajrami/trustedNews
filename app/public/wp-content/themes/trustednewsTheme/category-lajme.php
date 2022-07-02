@@ -12,7 +12,7 @@
       <h1 class="category-lajme"><?php echo single_cat_title(); ?></h1>
 
 
-      <div class="row ">
+      <div class="row">
         <div class="col-8">
           <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
           <?php if(is_active_sidebar('last-post-lajme')): ?>

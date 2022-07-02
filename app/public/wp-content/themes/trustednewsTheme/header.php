@@ -17,7 +17,9 @@
   <div class="container main-nav">
     <a href="#"><h2>TrustedNews</h2></a>
 
-      <div class="d-flex">
+      
+        <div>
+
         <?php
             wp_nav_menu(
 
@@ -31,13 +33,18 @@
 
             )
         ?>
+        </div>
+
+        <div>
+          <?php get_search_form(); ?>
+        </div>
         
-        <?php get_search_form(); ?>
+        
         <div class="multi-language">
           <?php echo do_shortcode('[gtranslate]'); ?>
         </div>
 
-      </div>
+     
 
   </div>
 </header>
