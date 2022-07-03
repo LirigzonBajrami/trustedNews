@@ -13,17 +13,18 @@
 
 
       <div class="row ">
-        <div class="col-8">
+        <div class="col-lg-8">
           <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
           <?php if(is_active_sidebar('last-post-teknologji')): ?>
-              <div class="last-post">
-                <?php dynamic_sidebar('last-post-teknologji'); ?>
+            <div class="last-post">
+              <?php dynamic_sidebar('last-post-teknologji'); ?>
 
-              </div>
+            </div>
+
           <?php endif; ?>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4">
         <?php if(is_active_sidebar('last-posts-teknologji-sidebar')): ?>
               <div>
                 <?php dynamic_sidebar('last-posts-teknologji-sidebar'); ?>
@@ -34,7 +35,7 @@
   
   
       <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8">
               <!-- Dmth qe kodin qe e kena shkru ne section-archive.php
                 importo ketu me vetem nje rresht kod, pra mos me kompliku kodin -->
           <?php get_template_part('includes/section','archive'); ?>
@@ -43,7 +44,7 @@
           <?php previous_posts_link(); ?>
           <?php next_posts_link(); ?>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
           <div class="archive">
             <h3 class="archive-title">Archive</h3>
             <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->

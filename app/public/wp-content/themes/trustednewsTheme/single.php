@@ -31,7 +31,7 @@
   
       <?php endif;?>
   
-  
+      
       <?php get_template_part('includes/section','lajmecontent'); ?>
 
     </div>

@@ -16,6 +16,13 @@ function load_css(){
 
   wp_enqueue_style('main');
 
+   // load custom css
+   wp_register_style('queries', 
+   get_template_directory_uri(). '/css/queries.css',
+   array(), false, 'all');
+ 
+   wp_enqueue_style('queries');
+
 }
 
 add_action('wp_enqueue_scripts', 'load_css');

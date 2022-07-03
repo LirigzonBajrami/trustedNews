@@ -7,7 +7,7 @@
    
     <div class="card mb-3 aside-lajme">
 
-        <div class="card-body d-flex justify-content-start
+        <div class="card-body d-lg-flex justify-content-start
         align-items-center">
 
         <!-- Imazhi -->

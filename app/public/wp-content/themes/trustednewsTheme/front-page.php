@@ -12,18 +12,20 @@
       <h1 class="category-lajme"><?php echo single_cat_title(); ?></h1>
 
 
-      <div class="row ">
-        <div class="col-8">
+      
+      <div class="row">
+        <div class="col-lg-8">
           <!-- Nese eshte aktive sidebari me id news-sidebar : dmth atehere -->
           <?php if(is_active_sidebar('last-post-lajme')): ?>
-              <div class="last-post">
-                <?php dynamic_sidebar('last-post-lajme'); ?>
+            <div class="last-post">
+              <?php dynamic_sidebar('last-post-lajme'); ?>
 
-              </div>
+            </div>
+
           <?php endif; ?>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4">
         <?php if(is_active_sidebar('last-posts-lajme-sidebar')): ?>
               <div>
                 <?php dynamic_sidebar('last-posts-lajme-sidebar'); ?>
@@ -34,7 +36,7 @@
   
   
       <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8">
               <!-- Dmth qe kodin qe e kena shkru ne section-archive.php
          importo ketu me vetem nje rresht kod, pra mos me kompliku kodin -->
           <div class="row home-page-latest">
@@ -51,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
           <?php if(is_active_sidebar('slider-sidebar')): ?>
               <div class="slider-home-sidebar">
                 <?php dynamic_sidebar('slider-sidebar'); ?>
