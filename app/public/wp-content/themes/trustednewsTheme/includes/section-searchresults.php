@@ -22,7 +22,7 @@
               <?php the_excerpt(); ?>
           
               <a href="<?php the_permalink(); ?>"
-               class="btn btn-success">Read More</a>
+               class="btn btn-outline-success">Lexo më shumë</a>
           </div>
 
         </div>

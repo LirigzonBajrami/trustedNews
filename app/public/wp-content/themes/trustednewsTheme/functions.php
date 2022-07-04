@@ -152,6 +152,18 @@ function my_sidebars(){
                 )
             );
 
+                   // Last post shendetesi sidebar
+                   register_sidebar(
+
+                    array(
+                      'name' => 'Last Post Shendetesi',
+                      'id' => 'last-post-shendetesi',
+                      'before_title' => '<h4 class="widget-title">',
+                      'after_title' => '</h4>'       
+                      
+                    )
+                );
+
       // Lajme sidebar
 
       register_sidebar(
@@ -188,6 +200,19 @@ function my_sidebars(){
           
         )
     );
+
+
+          // Shendetesi sidebar
+          register_sidebar(
+
+            array(
+              'name' => 'Last Posts Shendetesi Sidebar',
+              'id' => 'last-posts-shendetesi-sidebar',
+              'before_title' => '<h4 class="widget-title">',
+              'after_title' => '</h4>'
+              
+            )
+        );
 
 
     // ARCHIVE Sidebar
