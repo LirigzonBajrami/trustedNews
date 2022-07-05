@@ -1,7 +1,7 @@
 <!-- Fajlli i pare(baze,standard) qe direktohet kur klikohet ndonje
  category,psh Lajme, eshte archive.php, por na mundemi me perdore
   template te vecante per category te ndryshme si kjo psh-->
- <?php get_header(); ?> 
+ <?php get_header('lajme'); ?> 
 
 <section class="page-wrap">
   <!-- Renderimi i postit -->

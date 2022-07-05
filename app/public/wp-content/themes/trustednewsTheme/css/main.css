@@ -4,12 +4,82 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Header Style */
+/* ************************************ */
+/* DEFAULT HEADER */
+/* ************************************ */
 header {
   background-color: #2f476d;
   width: 100%;
   height: auto;
   padding: 1rem 0;
+}
+
+header .custom-nav {
+  background-color: #2f476d !important;
+}
+
+/* ************************************ */
+/* CUSTOM HEADERS */
+/* ************************************ */
+
+/* ************************************ */
+/* Custom SPORT HEADER */
+/* ************************************ */
+.header-sport {
+  background-color: #67ad3a;
+}
+
+.header-sport .custom-nav {
+  background-color: #67ad3a !important;
+}
+
+.header-sport #gtranslate_selector {
+  background-color: #67ad3a;
+}
+
+/* ************************************ */
+/* CUSTOM LAJME HEADER */
+/* ************************************ */
+.header-lajme {
+  background-color: #d1240d;
+}
+
+.header-lajme .custom-nav {
+  background-color: #d1240d !important;
+}
+
+.header-lajme #gtranslate_selector {
+  background-color: #d1240d;
+}
+
+/* ************************************ */
+/* CUSTOM TEKNOLOGJI HEADER */
+/* ************************************ */
+.header-teknologji {
+  background-color: #898990;
+}
+
+.header-teknologji .custom-nav {
+  background-color: #898990 !important;
+}
+
+.header-teknologji #gtranslate_selector {
+  background-color: #898990;
+}
+
+/* ************************************ */
+/* CUSTOM ShENDETESI HEADER */
+/* ************************************ */
+.header-shendetesi {
+  background-color: #aecd52;
+}
+
+.header-shendetesi .custom-nav {
+  background-color: #aecd52 !important;
+}
+
+.header-shendetesi #gtranslate_selector {
+  background-color: #aecd52;
 }
 
 /* Every page */
@@ -53,10 +123,6 @@ header .top-bar li a:hover {
   margin-right: 10px;
 } */
 
-header .custom-nav {
-  background-color: #2f476d !important;
-}
-
 .logo {
   color: #fff;
   font-weight: 700;
@@ -97,6 +163,11 @@ header .custom-nav {
   background-color: #2f476d;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.menu-item {
+  border-right: 2px solid #adb5bd;
+  font-weight: 500;
 }
 
 /* POSTS CONTENT */
@@ -503,9 +574,4 @@ header .custom-nav {
 /* Weather */
 .splw-lite-wrapper {
   width: 100%;
-}
-
-/* RESPONSIVE HEADER */
-.logo {
-  /* margin-right: 15rem; */
 }
