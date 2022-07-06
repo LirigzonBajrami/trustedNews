@@ -142,17 +142,25 @@ header .top-bar li a:hover {
   color: #fff !important;
   border: 1px solid #fff;
   background-color: #2f476d;
-  transition: all 0.4s;
 }
 
 .btn-outline-success:hover {
-  background-color: #263957 !important;
+  /* background-color: #263957; */
+  font-weight: 600;
+  color: #fff;
 }
 
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus {
   /* outline: none !important; */
+  box-shadow: none !important;
+  border: 1px solid #fff;
+}
+
+.form-control:focus,
+.form-control:active:focus,
+.form-control.active:focus {
   box-shadow: none !important;
   border: 1px solid #fff;
 }

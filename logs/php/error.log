@@ -361,3 +361,150 @@ Stack trace:
 #2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
 #3 [internal function]: do_shortcode_tag(Array)
 #4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 10:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:11:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:15:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:15:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:17:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:17:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:20:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:22:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
+[06-Jul-2022 11:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php:161
+Stack trace:
+#0 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(100): ShapedPlugin\Weather\Frontend\Shortcode::current_weather_data(Object(ShapedPlugin\Weather\Frontend\WeatherData\CurrentWeather), '12', '1', 'mph', 'metric', 'g:i a, F j, Y', '')
+#1 C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php(128): ShapedPlugin\Weather\Frontend\Shortcode::splw_html_show('99', Array, Array)
+#2 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(356): ShapedPlugin\Weather\Frontend\Shortcode->render_shortcode(Array, '', 'location-weathe...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Users\Admin\Local Sites\trustednews\app\public\wp-includes\shortcodes.php(228): preg_repl in C:\Users\Admin\Local Sites\trustednews\app\public\wp-content\plugins\location-weather\includes\Frontend\Shortcode.php on line 161
