@@ -27,7 +27,7 @@ Prishtinë 10000, Kosovë</p>
           </div>
           <div class="redaksia">
             <h3>Redaksia</h3>
-            <p><span>E-mail: </span>info@trustednews.com</p>
+            <p><span>E-mail: </span>contact@trustednews.wts2022.net</p>
             <p><span>Telefoni: </span>038 546 847</p>
             <p><span>Mobil: </span>+383 49 564 978</p>
           </div>
